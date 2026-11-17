@@ -3,9 +3,9 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "sk-proj-AbCdEf0123456789AbCdEf0123456789"
+OPENAI_API_KEY = "__OPENAI_TEST_KEY__"
 aws_secret_access_key = "wJalrXUtnFEMIabcdEXAMPLEKEYabcdEXAMPLE123"
-password = "h8Fk2zQw9bYt3Lp0"
+password = "example"
 
 @app.route("/u")
 def user():
